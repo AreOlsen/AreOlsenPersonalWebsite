@@ -120,13 +120,17 @@
 			"center"
 			"footer" !important;
 	}
-	:global(header) {
+	header {
 		grid-area: header !important;
 	}
-	:global(footer) {
+	footer {
 		grid-area: footer !important;
 	}
-	main {
+	:global(main) {
 		grid-area: center !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5rem;
 	}
 </style>
