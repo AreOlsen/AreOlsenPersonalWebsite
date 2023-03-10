@@ -38,10 +38,14 @@
 						>
 					</a>
 					<ul class="p-2 bg-base-100">
-						<li><a href="https://github.com/AreOlsen/FastFourierTransform">Fast Fourier Transform</a></li>
-						<li><a href="https://github.com/AreOlsen/Mandelbrot">Mandelbrot Set</a></li>
-						<li><a href="https://github.com/AreOlsen/Donut.CS">Donut</a></li>
-						<li><a href="https://github.com/AreOlsen?tab=repositories">More…</a></li>
+						<li>
+							<a target="_blank" href="https://fast-fourier-transform.vercel.app/"
+								>Fast Fourier Transform</a
+							>
+						</li>
+						<li><a target="_blank" href="https://mandelbrot-are.vercel.app/">Mandelbrot Set</a></li>
+						<li><a target="_blank" href="https://github.com/AreOlsen/Donut.CS">Donut</a></li>
+						<li><a target="_blank" href="https://github.com/AreOlsen?tab=repositories">More…</a></li>
 					</ul>
 				</li>
 				<li><a href="/sites/blog">Blog</a></li>
@@ -114,7 +118,7 @@
 		margin: 0;
 		display: grid !important;
 		grid-template-columns: 100% !important;
-		grid-template-rows: auto minmax(auto, 95vh) auto !important;
+		grid-template-rows: auto minmax(95vh, auto) auto !important;
 		grid-template-areas:
 			"header"
 			"center"

@@ -24,16 +24,22 @@
 			</ul>
 		</div>
 	</div>
-	<div class="rounded-lg shadow-2xl gap-2 p-8 flex flex-col">
-		<h2 class="text-2xl font-bold">Send me an email!</h2>
+	<div class="rounded-lg shadow-2xl gap-2 p-8 flex flex-col bg-accent">
+		<h2 class="text-3xl font-bold">Send me an email!</h2>
 		<label for="Subject">Subject of matter:</label>
-		<input class="input input-bordered" type="text" name="Subject" id="Subject" bind:value={subject} />
+		<input
+			class="input input-bordered input-secondary"
+			type="text"
+			name="Subject"
+			id="Subject"
+			bind:value={subject}
+		/>
 		<label for="Email">Contents of Email:</label>
 		<textarea
-			class="textarea textarea-bordered"
+			class="textarea textarea-bordered textarea-secondary"
 			style="width:400px; height:300px;
-                max-height: 550px;
-                min-height:200px;"
+                	max-height: 550px;
+                	min-height:200px;"
 			type="text"
 			name="Email"
 			id="Email"
