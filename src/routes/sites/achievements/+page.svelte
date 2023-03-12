@@ -3,13 +3,14 @@
 
 	const days = (date_1) => {
 		let date_2 = new Date();
-		let difference = date_1.getTime() - date_2.getTime();
+		let difference = date_2.getTime() - date_1.getTime();
 		let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
 		return TotalDays;
 	};
-	let duoStreak = days(date_1) + 553;
+
+	let duoStreak = days(date_1) + 552;
 	setInterval(() => {
-		duoStreak = days(date_1) + 553;
+		duoStreak = days(date_1) + 552;
 	}, 1000 * 60 * 60);
 </script>
 

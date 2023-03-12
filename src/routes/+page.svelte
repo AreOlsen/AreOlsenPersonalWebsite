@@ -1,10 +1,10 @@
 <main>
 	<div class="hero">
-		<div class="hero-content flex-col lg:flex-row-reverse gap-40">
+		<div class="hero-content flex-col lg:flex-row-reverse gap-4">
 			<img
-				src="tenksven.png"
-				class="max-w-sm rounded-lg shadow-2xl"
-				alt="Meme. Man says: I am people person. Goose says: I am a geese goose."
+				src="dev.png"
+				class="max-w-sm rounded-lg"
+				alt="A young software developer hard at work."
 			/>
 			<div class="flex flex-col items-start">
 				<span class="text-2xl opacity-80 ">Hi, my name is</span>

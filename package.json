@@ -11,6 +11,7 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.5.0",
+		"mdsvex": "^0.10.6",
 		"svelte": "^3.54.0",
 		"tailwindcss": "^3.2.7",
 		"vite": "^4.0.0"
@@ -19,7 +20,6 @@
 	"dependencies": {
 		"autoprefixer": "^10.4.13",
 		"daisyui": "^2.51.3",
-		"firebase": "^9.17.2",
 		"postcss": "^8.4.21",
 		"theme-change": "^2.5.0"
 	}

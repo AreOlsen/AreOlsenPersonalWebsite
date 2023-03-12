@@ -17,16 +17,16 @@
 	<title>Are Olsen.</title>
 </svelte:head>
 
-<header>
+<header class="z-50">
 	<div class="navbar bg-base-100">
 		<div class="flex-1">
 			<a class="btn btn-ghost normal-case text-xl" href="/">Are Olsen</a>
 		</div>
-		<div class="flex-none">
+		<div class="flex-none ">
 			<ul class="menu menu-horizontal px-1">
 				<li><a href="/sites/aboutme">About Me</a></li>
 				<li tabindex="0">
-					<a>
+					<a target="_blank" rel="noreferrer" href="https://github.com/AreOlsen?tab=repositories">
 						Projects
 						<svg
 							class="fill-current"
@@ -39,13 +39,13 @@
 					</a>
 					<ul class="p-2 bg-base-100">
 						<li>
-							<a target="_blank" href="https://fast-fourier-transform.vercel.app/"
+							<a target="_blank" rel="noreferrer" href="https://fast-fourier-transform.vercel.app/"
 								>Fast Fourier Transform</a
 							>
 						</li>
-						<li><a target="_blank" href="https://mandelbrot-are.vercel.app/">Mandelbrot Set</a></li>
-						<li><a target="_blank" href="https://github.com/AreOlsen/Donut.CS">Donut</a></li>
-						<li><a target="_blank" href="https://github.com/AreOlsen?tab=repositories">More…</a></li>
+						<li><a target="_blank" rel="noreferrer" href="https://mandelbrot-are.vercel.app/">Mandelbrot Set</a></li>
+						<li><a target="_blank" rel="noreferrer" href="https://github.com/AreOlsen/Donut.CS">Donut</a></li>
+						<li><a target="_blank" rel="noreferrer" href="https://github.com/AreOlsen?tab=repositories">More…</a></li>
 					</ul>
 				</li>
 				<li><a href="/sites/blog">Blog</a></li>
@@ -56,11 +56,14 @@
 	</div>
 </header>
 <slot />
-<footer class="footer footer-center p-10 bg-primary text-primary-content">
+<footer class="footer footer-center p-10 bg-primary text-primary-content z-50">
 	<div>
-		<img src="/AO.png" width="75" height="75" alt="Primary Logo" />
+		<a href="/">
+			<img src="/AO.png" width="75" height="75" alt="Primary Logo" />
+		</a>
 		<p class="font-bold">
 			Are Olsen. <br />An experienced programmer.
+			<br/> Website made with love over a weekend.
 		</p>
 	</div>
 	<div>
@@ -108,8 +111,10 @@
 
 <style>
 	:root {
-		min-width: 100vw;
-		min-height: 100vh;
+		min-width: 100%;
+		min-height: 100%;
+		padding:0;
+		margin:0;
 	}
 
 	:global(body) {
