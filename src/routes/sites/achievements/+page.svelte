@@ -19,6 +19,7 @@
 	<div class="flex flex-row gap-2">
 		<div class="flex flex-col gap-4">
 			<h1 class="font-bold text-3xl">Personal Achievements</h1>
+			<div class="divider" />
 			<article class="flex flex-row gap-2">
 				<div>
 					<h2 class="font-bold text-2xl">Spanish Learning with Duolingo.</h2>
@@ -48,6 +49,7 @@
 		<div class="divider lg:divider-horizontal" />
 		<div class="flex flex-col gap-4">
 			<h1 class="font-bold text-3xl">Olympiads & Others.</h1>
+			<div class="divider" />
 			<article class="flex flex-row gap-2">
 				<div>
 					<h2 class="font-bold text-2xl">International Language Olympiad (2022).</h2>
