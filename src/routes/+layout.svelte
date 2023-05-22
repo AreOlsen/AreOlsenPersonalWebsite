@@ -43,6 +43,7 @@
 								>Fast Fourier Transform</a
 							>
 						</li>
+						<li><a target="_blank" rel="noreferrer" href="https://astroguidance.vercel.app/">AstroGuidance</a></li>
 						<li><a target="_blank" rel="noreferrer" href="https://mandelbrot-are.vercel.app/">Mandelbrot Set</a></li>
 						<li><a target="_blank" rel="noreferrer" href="https://github.com/AreOlsen/Donut.CS">Donut</a></li>
 						<li><a target="_blank" rel="noreferrer" href="https://github.com/AreOlsen?tab=repositories">More…</a></li>
